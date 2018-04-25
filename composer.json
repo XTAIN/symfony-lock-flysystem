@@ -1,0 +1,18 @@
+{
+    "name": "xtain/symfony-lock-flysystem",
+    "type": "project",
+    "description": "Flysystem implementation for symfony/lock component",
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/lock": "~3.4|~4.0",
+        "league/flysystem": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "XTAIN\\Flysystem\\Lock\\": "src"
+        }
+    }
+}
