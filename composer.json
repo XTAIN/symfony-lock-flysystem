@@ -1,6 +1,7 @@
 {
     "name": "xtain/symfony-lock-flysystem",
-    "type": "project",
+    "type": "library",
+    "license": "MIT",
     "description": "Flysystem implementation for symfony/lock component",
     "require": {
         "php": ">=5.3.9",
